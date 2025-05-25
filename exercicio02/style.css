@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient(to bottom, black, wheat, black);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font: normal 15pt, Arial;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px 40px white;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+}
+
+#button:hover {
+    background: #c0b6bb;
+    transform: scale(1.2);
+}
+
+#button {
+    font-family: "Franklin Gothic Medium";
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    padding: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#txtano {
+    font-family: "Franklin Gothic Medium";
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    text-shadow: 5px 5px 10px white;
+    font-family: "Times New Roman", Times, serif;
+}
